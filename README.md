@@ -1,55 +1,36 @@
-# Starlight Starter Kit: Basics
+#  Training Diary 📓🚀
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+Welcome to my **Training Diary**! This repository contains detailed logs, notes, and insights from my one-month journey of developing a Django-based application for **Nirvighna Services**. The goal of this diary is to document my daily progress, challenges, solutions, and the knowledge I gained throughout the development process.
 
-```
-npm create astro@latest -- --template starlight
-```
+## 🛠️ Overview
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/withastro/starlight&create_from_path=examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
+This repository is structured as a training diary with daily entries, documenting my development activities, debugging sessions, and features I implemented in the Django application. Each entry focuses on specific aspects of the project, such as RESTful API development, authentication, and deployment.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🗂️ Repository Structure
 
-## 🚀 Project Structure
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+Here’s a README template in Markdown format for your "Django Application Training Diary" related to the work you did for Nirvighna Services:
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   │   └── config.ts
-│   └── env.d.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+markdown
+Copy code
+# Django Application Training Diary 📓🚀
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+Welcome to my **Django Application Training Diary**! This repository contains detailed logs, notes, and insights from my one-month journey of developing a Django-based application for **Nirvighna Services**. The goal of this diary is to document my daily progress, challenges, solutions, and the knowledge I gained throughout the development process.
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+## 🛠️ Overview
 
-Static assets, like favicons, can be placed in the `public/` directory.
+This repository is structured as a training diary with daily entries, documenting my development activities, debugging sessions, and features I implemented in the Django application. Each entry focuses on specific aspects of the project, such as RESTful API development, authentication, and deployment.
 
-## 🧞 Commands
+## 🗂️ Repository Structure
 
-All commands are run from the root of the project, from a terminal:
+django-training-diary/ │ ├── day-01.md # Setting up the Django project and initial configurations ├── day-02.md # Creating models and setting up the database ├── day-03.md # Implementing RESTful APIs using Django REST framework ├── day-04.md # User authentication using JWT ├── ... ├── day-30.md # Final reflections and project review │ ├── code-snippets/ # Code snippets for various parts of the application │ ├── models-example.py │ ├── api-views-example.py │ └── ... │ └── README.md # Project overview (this file)
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+markdown
+Copy code
 
-## 👀 Want to learn more?
-
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+Each `day-xx.md` file contains:
+- **Summary**: A brief overview of what I worked on that day.
+- **Challenges**: Issues faced and how I resolved them.
+- **Code Highlights**: Important code snippets or approaches I implemented.
+- **Learnings**: Key concepts and best practices I picked up.
+- **Next Steps**: Plans for the upcoming days or features to add.
