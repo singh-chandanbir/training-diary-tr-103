@@ -70,10 +70,9 @@ body {
     font-family: Arial, sans-serif;
     color: #fff;
 }
-
 ```
 ```js
-    console.log("Hello, world!");
+console.log("Hello, world!");
 ```
 
 To add this css file go to **settings.py** and add the following line:
@@ -101,7 +100,8 @@ Now, let’s change the **home** view to use the new template:
 
 ```py
 from django.shortcuts import render
-def home(request):    return render(request, 'index.html')
+def home(request): 
+   return render(request, 'index.html')
 ```
 
 Now, let’s run the server again and visit the **[http://localhost:8000/](http://localhost:8000/)** URL. You should see the following output:
